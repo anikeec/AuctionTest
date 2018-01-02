@@ -1,6 +1,6 @@
 @echo off
 
-set AMOUNT_OF_CLIENTS=5
+set AMOUNT_OF_CLIENTS=20
 
 set TEST_PATH=%cd%
 

@@ -1,0 +1,44 @@
+02.01.18 20:39:32.759 DEBUG main - (com.apu.auctionclient.Main) - UserId = 20, LotId = 1
+02.01.18 20:39:32.771 DEBUG main - (com.apu.auctionclient.nw.client.Client) - Client started
+02.01.18 20:39:32.772 DEBUG main - (com.apu.auctionclient.nw.client.Client) - Try to connect
+02.01.18 20:39:33.475 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"observableLotIdList":[1],"queryType":"REGISTRATION","time":"2018.01.02 20:39:33.457","packetId":0,"userId":20}
+02.01.18 20:39:36.546 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"message":"Registration answer","queryType":"ANSWER","time":"2018.01.02 20:39:36.541","packetId":0,"userId":20}
+02.01.18 20:39:36.552 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - AnswerQuery packet
+02.01.18 20:39:36.554 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Answer for registration query received
+02.01.18 20:39:36.555 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 1
+02.01.18 20:39:37.637 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.02 20:39:37.637","packetId":1,"userId":20}
+02.01.18 20:39:39.836 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.02 20:39:39.834","packetId":1,"userId":20}
+02.01.18 20:39:39.837 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+02.01.18 20:39:39.839 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - 
+02.01.18 20:39:39.842 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+02.01.18 20:39:39.854 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 2
+02.01.18 20:39:39.863 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.02 20:39:39.856","packetId":2,"userId":20}
+02.01.18 20:39:40.089 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.02 20:39:40.061","packetId":2,"userId":20}
+02.01.18 20:39:40.091 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+02.01.18 20:39:40.091 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - 
+02.01.18 20:39:40.139 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+02.01.18 20:39:40.139 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 3
+02.01.18 20:39:40.142 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.02 20:39:40.141","packetId":3,"userId":20}
+02.01.18 20:39:40.380 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+02.01.18 20:39:40.380 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+02.01.18 20:39:40.390 DEBUG Thread-0 - (com.apu.auctionclient.nw.Network) - Network thread. Timer stopped
+02.01.18 20:39:40.391 DEBUG Thread-0 - (com.apu.auctionclient.nw.Network) - Network thread. Sending thread try to interrupt
+02.01.18 20:39:40.392 DEBUG Thread-0 - (com.apu.auctionclient.nw.Network) - Network thread. Receiving thread try to interrupt
+02.01.18 20:39:40.395 DEBUG Thread-0 - (com.apu.auctionclient.nw.Network) - Network thread. Sending thread wait
+02.01.18 20:39:40.398 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - java.lang.InterruptedException
+	at com.apu.auctionclient.nw.SendingTask.run(SendingTask.java:69)
+	at java.lang.Thread.run(Unknown Source)
+
+02.01.18 20:39:40.403 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - Sending thread. Interrupted.
+02.01.18 20:39:40.429 DEBUG Thread-0 - (com.apu.auctionclient.nw.Network) - Network thread. Sending thread interrupted
+02.01.18 20:39:40.509 DEBUG Thread-0 - (com.apu.auctionclient.nw.Network) - Network thread. Receiving thread wait
+02.01.18 20:39:40.885 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.02 20:39:40.827","packetId":3,"userId":20}
+02.01.18 20:39:40.886 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+02.01.18 20:39:40.890 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - 
+02.01.18 20:39:40.891 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+02.01.18 20:39:40.892 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 4
+02.01.18 20:39:40.894 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Thread sleep is interrupted.
+02.01.18 20:39:40.904 DEBUG Thread-0 - (com.apu.auctionclient.nw.Network) - Network thread. Receiving thread interrupted
+02.01.18 20:39:40.905 DEBUG Thread-0 - (com.apu.auctionclient.nw.Network) - Network thread. Socket closed
+02.01.18 20:39:40.905 DEBUG Thread-0 - (com.apu.auctionclient.nw.Network) - Client stop
+02.01.18 20:39:40.908 DEBUG Thread-0 - (com.apu.auctionclient.nw.Network) - Network stop

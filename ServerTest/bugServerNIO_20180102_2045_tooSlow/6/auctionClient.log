@@ -1,0 +1,27 @@
+02.01.18 20:39:31.722 DEBUG main - (com.apu.auctionclient.Main) - UserId = 6, LotId = 1
+02.01.18 20:39:31.731 DEBUG main - (com.apu.auctionclient.nw.client.Client) - Client started
+02.01.18 20:39:31.732 DEBUG main - (com.apu.auctionclient.nw.client.Client) - Try to connect
+02.01.18 20:39:31.926 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"observableLotIdList":[1],"queryType":"REGISTRATION","time":"2018.01.02 20:39:31.868","packetId":0,"userId":6}
+02.01.18 20:39:32.943 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"message":"Registration answer","queryType":"ANSWER","time":"2018.01.02 20:39:32.792","packetId":0,"userId":6}
+02.01.18 20:39:32.952 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - AnswerQuery packet
+02.01.18 20:39:32.958 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Answer for registration query received
+02.01.18 20:39:32.961 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 1
+02.01.18 20:39:34.145 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.02 20:39:34.144","packetId":1,"userId":6}
+02.01.18 20:39:36.391 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+02.01.18 20:39:36.391 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+02.01.18 20:39:36.393 DEBUG Thread-0 - (com.apu.auctionclient.nw.Network) - Network thread. Timer stopped
+02.01.18 20:39:36.394 DEBUG Thread-0 - (com.apu.auctionclient.nw.Network) - Network thread. Sending thread try to interrupt
+02.01.18 20:39:36.405 DEBUG Thread-0 - (com.apu.auctionclient.nw.Network) - Network thread. Receiving thread try to interrupt
+02.01.18 20:39:36.406 DEBUG Thread-0 - (com.apu.auctionclient.nw.Network) - Network thread. Sending thread wait
+02.01.18 20:39:36.432 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - java.lang.InterruptedException
+	at com.apu.auctionclient.nw.SendingTask.run(SendingTask.java:69)
+	at java.lang.Thread.run(Unknown Source)
+
+02.01.18 20:39:36.435 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - Sending thread. Interrupted.
+02.01.18 20:39:36.442 DEBUG Thread-0 - (com.apu.auctionclient.nw.Network) - Network thread. Sending thread interrupted
+02.01.18 20:39:36.443 DEBUG Thread-0 - (com.apu.auctionclient.nw.Network) - Network thread. Receiving thread wait
+02.01.18 20:39:36.985 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Thread sleep is interrupted.
+02.01.18 20:39:36.985 DEBUG Thread-0 - (com.apu.auctionclient.nw.Network) - Network thread. Receiving thread interrupted
+02.01.18 20:39:36.986 DEBUG Thread-0 - (com.apu.auctionclient.nw.Network) - Network thread. Socket closed
+02.01.18 20:39:36.986 DEBUG Thread-0 - (com.apu.auctionclient.nw.Network) - Client stop
+02.01.18 20:39:37.092 DEBUG Thread-0 - (com.apu.auctionclient.nw.Network) - Network stop
