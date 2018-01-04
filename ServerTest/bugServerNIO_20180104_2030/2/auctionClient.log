@@ -1,0 +1,1195 @@
+04.01.18 20:29:40.370 DEBUG main - (com.apu.auctionclient.Main) - UserId = 2, LotId = 1
+04.01.18 20:29:40.379 DEBUG main - (com.apu.auctionclient.nw.client.Client) - Client started
+04.01.18 20:29:40.379 DEBUG main - (com.apu.auctionclient.nw.client.Client) - Try to connect
+04.01.18 20:29:40.441 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"observableLotIdList":[1],"queryType":"REGISTRATION","time":"2018.01.04 20:29:40.430","packetId":0,"userId":2}
+04.01.18 20:29:40.653 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 113
+04.01.18 20:29:40.656 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"message":"Registration answer","queryType":"ANSWER","time":"2018.01.04 20:29:40.651","packetId":0,"userId":2}
+04.01.18 20:29:40.660 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - AnswerQuery packet
+04.01.18 20:29:40.664 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Answer for registration query received
+04.01.18 20:29:40.665 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 1
+04.01.18 20:29:41.165 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:41.167 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:29:41.167","packetId":1,"userId":2}
+04.01.18 20:29:41.201 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 203
+04.01.18 20:29:41.202 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:29:41.198","packetId":1,"userId":2}
+04.01.18 20:29:41.205 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:29:41.206 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:29:41.207 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 2
+04.01.18 20:29:41.365 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:41.366 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:29:41.366","packetId":2,"userId":2}
+04.01.18 20:29:41.390 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 203
+04.01.18 20:29:41.391 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:29:41.388","packetId":2,"userId":2}
+04.01.18 20:29:41.391 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:29:41.392 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:29:41.394 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 3
+04.01.18 20:29:41.565 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:41.568 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:29:41.568","packetId":3,"userId":2}
+04.01.18 20:29:41.601 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 203
+04.01.18 20:29:41.602 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":29}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:29:41.584","packetId":3,"userId":2}
+04.01.18 20:29:41.603 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:29:41.604 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:29:41.604 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 4
+04.01.18 20:29:41.765 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:41.767 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:29:41.767","packetId":4,"userId":2}
+04.01.18 20:29:41.785 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 203
+04.01.18 20:29:41.785 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:29:41.780","packetId":4,"userId":2}
+04.01.18 20:29:41.786 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:29:41.786 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:29:41.787 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 5
+04.01.18 20:29:41.966 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:41.968 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:29:41.968","packetId":5,"userId":2}
+04.01.18 20:29:41.986 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 203
+04.01.18 20:29:41.987 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:29:41.984","packetId":5,"userId":2}
+04.01.18 20:29:41.988 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:29:41.989 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:29:41.989 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 6
+04.01.18 20:29:42.165 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:42.363 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:29:42.169","packetId":6,"userId":2}
+04.01.18 20:29:42.366 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:42.565 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:42.591 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 203
+04.01.18 20:29:42.593 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:29:42.585","packetId":6,"userId":2}
+04.01.18 20:29:42.596 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:29:42.598 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:29:42.615 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 7
+04.01.18 20:29:42.632 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:29:42.632","packetId":7,"userId":2}
+04.01.18 20:29:42.814 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:42.855 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 203
+04.01.18 20:29:42.856 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:29:42.844","packetId":7,"userId":2}
+04.01.18 20:29:42.859 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:29:42.866 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:29:42.882 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 8
+04.01.18 20:29:42.884 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:29:42.883","packetId":8,"userId":2}
+04.01.18 20:29:42.964 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 203
+04.01.18 20:29:42.964 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:29:42.920","packetId":8,"userId":2}
+04.01.18 20:29:42.967 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:42.967 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:29:42.968 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:29:42.969 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 9
+04.01.18 20:29:42.971 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:29:42.970","packetId":9,"userId":2}
+04.01.18 20:29:43.042 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 203
+04.01.18 20:29:43.043 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":29}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:29:43.037","packetId":9,"userId":2}
+04.01.18 20:29:43.044 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:29:43.044 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:29:43.045 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 10
+04.01.18 20:29:43.045 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:29:43.045","packetId":10,"userId":2}
+04.01.18 20:29:43.134 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:29:43.134 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":29}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:29:43.130","packetId":10,"userId":2}
+04.01.18 20:29:43.136 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:29:43.139 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:29:43.139 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 11
+04.01.18 20:29:43.165 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:43.166 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:29:43.166","packetId":11,"userId":2}
+04.01.18 20:29:43.200 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:29:43.201 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:29:43.193","packetId":11,"userId":2}
+04.01.18 20:29:43.203 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:29:43.205 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:29:43.206 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 12
+04.01.18 20:29:43.365 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:43.371 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:29:43.371","packetId":12,"userId":2}
+04.01.18 20:29:43.416 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:29:43.416 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:29:43.411","packetId":12,"userId":2}
+04.01.18 20:29:43.418 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:29:43.430 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:29:43.431 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 13
+04.01.18 20:29:43.565 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:43.566 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:29:43.566","packetId":13,"userId":2}
+04.01.18 20:29:43.579 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:29:43.580 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":29}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:29:43.577","packetId":13,"userId":2}
+04.01.18 20:29:43.581 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:29:43.582 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:29:43.582 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 14
+04.01.18 20:29:43.765 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:43.769 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:29:43.769","packetId":14,"userId":2}
+04.01.18 20:29:43.782 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:29:43.784 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:29:43.780","packetId":14,"userId":2}
+04.01.18 20:29:43.785 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:29:43.787 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:29:43.787 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 15
+04.01.18 20:29:43.965 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:43.967 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:29:43.967","packetId":15,"userId":2}
+04.01.18 20:29:43.982 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:29:43.984 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:29:43.981","packetId":15,"userId":2}
+04.01.18 20:29:43.985 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:29:43.985 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:29:43.986 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 16
+04.01.18 20:29:44.165 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:44.169 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:29:44.169","packetId":16,"userId":2}
+04.01.18 20:29:44.184 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:29:44.184 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:29:44.182","packetId":16,"userId":2}
+04.01.18 20:29:44.186 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:29:44.188 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:29:44.189 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 17
+04.01.18 20:29:44.365 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:44.366 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:29:44.366","packetId":17,"userId":2}
+04.01.18 20:29:44.385 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:29:44.386 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:29:44.383","packetId":17,"userId":2}
+04.01.18 20:29:44.391 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:29:44.393 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:29:44.395 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 18
+04.01.18 20:29:44.565 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:44.567 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:29:44.567","packetId":18,"userId":2}
+04.01.18 20:29:44.585 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:29:44.586 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":29}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:29:44.579","packetId":18,"userId":2}
+04.01.18 20:29:44.586 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:29:44.588 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:29:44.588 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 19
+04.01.18 20:29:44.765 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:44.767 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:29:44.767","packetId":19,"userId":2}
+04.01.18 20:29:44.781 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:29:44.782 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:29:44.780","packetId":19,"userId":2}
+04.01.18 20:29:44.783 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:29:44.784 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:29:44.784 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 20
+04.01.18 20:29:44.965 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:44.967 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:29:44.967","packetId":20,"userId":2}
+04.01.18 20:29:44.980 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:29:44.982 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:29:44.979","packetId":20,"userId":2}
+04.01.18 20:29:44.982 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:29:44.983 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:29:44.983 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 21
+04.01.18 20:29:45.165 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:45.173 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:29:45.173","packetId":21,"userId":2}
+04.01.18 20:29:45.207 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:29:45.208 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:29:45.197","packetId":21,"userId":2}
+04.01.18 20:29:45.209 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:29:45.214 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:29:45.216 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 22
+04.01.18 20:29:45.366 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:45.370 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:29:45.370","packetId":22,"userId":2}
+04.01.18 20:29:45.406 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:29:45.408 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:29:45.397","packetId":22,"userId":2}
+04.01.18 20:29:45.408 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:29:45.410 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:29:45.410 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 23
+04.01.18 20:29:45.565 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:45.566 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:29:45.566","packetId":23,"userId":2}
+04.01.18 20:29:45.618 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:29:45.619 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:29:45.615","packetId":23,"userId":2}
+04.01.18 20:29:45.620 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:29:45.621 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:29:45.622 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 24
+04.01.18 20:29:45.765 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:45.770 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:29:45.770","packetId":24,"userId":2}
+04.01.18 20:29:45.783 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:29:45.784 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:29:45.781","packetId":24,"userId":2}
+04.01.18 20:29:45.785 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:29:45.785 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:29:45.786 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 25
+04.01.18 20:29:45.965 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:45.965 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:29:45.965","packetId":25,"userId":2}
+04.01.18 20:29:45.980 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:29:45.982 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:29:45.979","packetId":25,"userId":2}
+04.01.18 20:29:45.982 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:29:45.984 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:29:45.986 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 26
+04.01.18 20:29:46.165 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:46.168 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:29:46.168","packetId":26,"userId":2}
+04.01.18 20:29:46.228 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:29:46.229 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:29:46.209","packetId":26,"userId":2}
+04.01.18 20:29:46.234 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:29:46.236 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:29:46.237 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 27
+04.01.18 20:29:46.366 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:46.369 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:29:46.369","packetId":27,"userId":2}
+04.01.18 20:29:46.402 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:29:46.403 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:29:46.391","packetId":27,"userId":2}
+04.01.18 20:29:46.406 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:29:46.407 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:29:46.408 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 28
+04.01.18 20:29:46.565 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:46.568 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:29:46.568","packetId":28,"userId":2}
+04.01.18 20:29:46.601 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:29:46.602 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":29}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:29:46.588","packetId":28,"userId":2}
+04.01.18 20:29:46.603 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:29:46.604 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:29:46.604 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 29
+04.01.18 20:29:46.765 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:46.766 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:29:46.766","packetId":29,"userId":2}
+04.01.18 20:29:46.786 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:29:46.787 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:29:46.780","packetId":29,"userId":2}
+04.01.18 20:29:46.787 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:29:46.788 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:29:46.789 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 30
+04.01.18 20:29:46.965 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:46.969 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:29:46.969","packetId":30,"userId":2}
+04.01.18 20:29:47.004 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:29:47.005 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:29:46.997","packetId":30,"userId":2}
+04.01.18 20:29:47.006 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:29:47.007 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:29:47.008 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 31
+04.01.18 20:29:47.165 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:47.169 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:29:47.169","packetId":31,"userId":2}
+04.01.18 20:29:47.189 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:29:47.191 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:29:47.186","packetId":31,"userId":2}
+04.01.18 20:29:47.192 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:29:47.193 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:29:47.195 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 32
+04.01.18 20:29:47.365 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:47.370 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:29:47.370","packetId":32,"userId":2}
+04.01.18 20:29:47.417 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:29:47.419 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:29:47.398","packetId":32,"userId":2}
+04.01.18 20:29:47.423 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:29:47.424 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:29:47.425 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 33
+04.01.18 20:29:47.565 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:47.568 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:29:47.568","packetId":33,"userId":2}
+04.01.18 20:29:47.587 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:29:47.587 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":29}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:29:47.582","packetId":33,"userId":2}
+04.01.18 20:29:47.588 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:29:47.589 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:29:47.589 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 34
+04.01.18 20:29:47.765 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:47.768 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:29:47.768","packetId":34,"userId":2}
+04.01.18 20:29:47.786 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:29:47.787 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:29:47.783","packetId":34,"userId":2}
+04.01.18 20:29:47.788 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:29:47.790 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:29:47.790 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 35
+04.01.18 20:29:47.965 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:47.967 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:29:47.967","packetId":35,"userId":2}
+04.01.18 20:29:47.984 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:29:47.985 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:29:47.981","packetId":35,"userId":2}
+04.01.18 20:29:47.986 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:29:47.987 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:29:47.988 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 36
+04.01.18 20:29:48.165 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:48.166 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:29:48.166","packetId":36,"userId":2}
+04.01.18 20:29:48.201 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:29:48.202 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:29:48.195","packetId":36,"userId":2}
+04.01.18 20:29:48.205 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:29:48.210 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:29:48.213 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 37
+04.01.18 20:29:48.365 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:48.367 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:29:48.366","packetId":37,"userId":2}
+04.01.18 20:29:48.399 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:29:48.399 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:29:48.390","packetId":37,"userId":2}
+04.01.18 20:29:48.400 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:29:48.402 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:29:48.404 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 38
+04.01.18 20:29:48.565 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:48.566 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:29:48.566","packetId":38,"userId":2}
+04.01.18 20:29:48.618 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:29:48.620 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":29}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:29:48.612","packetId":38,"userId":2}
+04.01.18 20:29:48.621 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:29:48.622 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:29:48.622 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 39
+04.01.18 20:29:48.765 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:48.770 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:29:48.770","packetId":39,"userId":2}
+04.01.18 20:29:48.784 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:29:48.785 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:29:48.782","packetId":39,"userId":2}
+04.01.18 20:29:48.786 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:29:48.787 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:29:48.788 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 40
+04.01.18 20:29:48.967 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:48.972 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:29:48.972","packetId":40,"userId":2}
+04.01.18 20:29:48.998 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:29:49.000 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:29:48.988","packetId":40,"userId":2}
+04.01.18 20:29:49.001 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:29:49.002 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:29:49.003 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 41
+04.01.18 20:29:49.165 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:49.168 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:29:49.168","packetId":41,"userId":2}
+04.01.18 20:29:49.199 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:29:49.200 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:29:49.186","packetId":41,"userId":2}
+04.01.18 20:29:49.201 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:29:49.202 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:29:49.203 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 42
+04.01.18 20:29:49.365 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:49.370 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:29:49.370","packetId":42,"userId":2}
+04.01.18 20:29:49.396 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:29:49.397 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:29:49.386","packetId":42,"userId":2}
+04.01.18 20:29:49.399 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:29:49.401 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:29:49.402 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 43
+04.01.18 20:29:49.565 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:49.567 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:29:49.567","packetId":43,"userId":2}
+04.01.18 20:29:49.590 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:29:49.593 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:29:49.582","packetId":43,"userId":2}
+04.01.18 20:29:49.593 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:29:49.594 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:29:49.595 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 44
+04.01.18 20:29:49.766 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:49.774 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:29:49.774","packetId":44,"userId":2}
+04.01.18 20:29:49.814 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:29:49.816 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:29:49.790","packetId":44,"userId":2}
+04.01.18 20:29:49.817 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:29:49.818 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:29:49.819 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 45
+04.01.18 20:29:49.965 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:49.968 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:29:49.968","packetId":45,"userId":2}
+04.01.18 20:29:50.001 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:29:50.002 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:29:49.987","packetId":45,"userId":2}
+04.01.18 20:29:50.004 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:29:50.005 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:29:50.006 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 46
+04.01.18 20:29:50.165 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:50.169 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:29:50.169","packetId":46,"userId":2}
+04.01.18 20:29:50.237 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:29:50.238 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:29:50.211","packetId":46,"userId":2}
+04.01.18 20:29:50.240 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:29:50.242 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:29:50.244 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 47
+04.01.18 20:29:50.365 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:50.367 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:29:50.367","packetId":47,"userId":2}
+04.01.18 20:29:50.385 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:29:50.386 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:29:50.380","packetId":47,"userId":2}
+04.01.18 20:29:50.387 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:29:50.387 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:29:50.388 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 48
+04.01.18 20:29:50.565 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:50.570 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:29:50.570","packetId":48,"userId":2}
+04.01.18 20:29:50.600 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:29:50.600 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:29:50.584","packetId":48,"userId":2}
+04.01.18 20:29:50.602 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:29:50.602 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:29:50.603 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 49
+04.01.18 20:29:50.765 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:50.765 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:29:50.765","packetId":49,"userId":2}
+04.01.18 20:29:50.778 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:29:50.778 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:29:50.776","packetId":49,"userId":2}
+04.01.18 20:29:50.779 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:29:50.780 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:29:50.781 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 50
+04.01.18 20:29:50.965 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:50.969 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:29:50.969","packetId":50,"userId":2}
+04.01.18 20:29:50.995 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:29:50.996 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:29:50.984","packetId":50,"userId":2}
+04.01.18 20:29:50.996 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:29:50.998 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:29:50.998 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 51
+04.01.18 20:29:51.165 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:51.168 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:29:51.168","packetId":51,"userId":2}
+04.01.18 20:29:51.234 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:29:51.235 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:29:51.200","packetId":51,"userId":2}
+04.01.18 20:29:51.237 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:29:51.238 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:29:51.239 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 52
+04.01.18 20:29:51.365 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:51.369 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:29:51.369","packetId":52,"userId":2}
+04.01.18 20:29:51.396 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:29:51.397 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:29:51.386","packetId":52,"userId":2}
+04.01.18 20:29:51.398 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:29:51.399 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:29:51.400 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 53
+04.01.18 20:29:51.565 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:51.565 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:29:51.565","packetId":53,"userId":2}
+04.01.18 20:29:51.583 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:29:51.583 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:29:51.577","packetId":53,"userId":2}
+04.01.18 20:29:51.584 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:29:51.585 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:29:51.585 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 54
+04.01.18 20:29:51.765 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:51.766 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:29:51.766","packetId":54,"userId":2}
+04.01.18 20:29:51.783 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:29:51.785 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:29:51.778","packetId":54,"userId":2}
+04.01.18 20:29:51.786 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:29:51.787 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:29:51.787 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 55
+04.01.18 20:29:51.965 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:51.969 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:29:51.969","packetId":55,"userId":2}
+04.01.18 20:29:52.028 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:29:52.029 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:29:52.022","packetId":55,"userId":2}
+04.01.18 20:29:52.031 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:29:52.032 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:29:52.033 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 56
+04.01.18 20:29:52.165 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:52.168 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:29:52.168","packetId":56,"userId":2}
+04.01.18 20:29:52.196 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:29:52.197 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:29:52.183","packetId":56,"userId":2}
+04.01.18 20:29:52.199 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:29:52.199 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:29:52.200 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 57
+04.01.18 20:29:52.365 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:52.369 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:29:52.369","packetId":57,"userId":2}
+04.01.18 20:29:52.397 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:29:52.399 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:29:52.386","packetId":57,"userId":2}
+04.01.18 20:29:52.400 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:29:52.401 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:29:52.402 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 58
+04.01.18 20:29:52.565 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:52.567 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:29:52.567","packetId":58,"userId":2}
+04.01.18 20:29:52.585 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:29:52.586 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:29:52.581","packetId":58,"userId":2}
+04.01.18 20:29:52.587 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:29:52.588 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:29:52.589 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 59
+04.01.18 20:29:52.765 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:52.767 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:29:52.767","packetId":59,"userId":2}
+04.01.18 20:29:52.782 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:29:52.782 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:29:52.777","packetId":59,"userId":2}
+04.01.18 20:29:52.783 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:29:52.784 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:29:52.785 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 60
+04.01.18 20:29:52.965 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:52.969 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:29:52.969","packetId":60,"userId":2}
+04.01.18 20:29:53.004 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:29:53.005 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:29:52.988","packetId":60,"userId":2}
+04.01.18 20:29:53.006 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:29:53.007 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:29:53.008 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 61
+04.01.18 20:29:53.165 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:53.169 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:29:53.169","packetId":61,"userId":2}
+04.01.18 20:29:53.196 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:29:53.197 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:29:53.185","packetId":61,"userId":2}
+04.01.18 20:29:53.199 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:29:53.200 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:29:53.200 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 62
+04.01.18 20:29:53.365 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:53.366 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:29:53.366","packetId":62,"userId":2}
+04.01.18 20:29:53.383 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:29:53.384 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:29:53.378","packetId":62,"userId":2}
+04.01.18 20:29:53.386 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:29:53.387 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:29:53.388 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 63
+04.01.18 20:29:53.565 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:53.568 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:29:53.568","packetId":63,"userId":2}
+04.01.18 20:29:53.595 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:29:53.595 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:29:53.581","packetId":63,"userId":2}
+04.01.18 20:29:53.596 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:29:53.597 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:29:53.597 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 64
+04.01.18 20:29:53.765 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:53.767 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:29:53.767","packetId":64,"userId":2}
+04.01.18 20:29:53.782 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:29:53.783 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:29:53.778","packetId":64,"userId":2}
+04.01.18 20:29:53.784 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:29:53.785 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:29:53.786 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 65
+04.01.18 20:29:53.965 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:53.967 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:29:53.967","packetId":65,"userId":2}
+04.01.18 20:29:53.992 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:29:53.993 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:29:53.981","packetId":65,"userId":2}
+04.01.18 20:29:53.994 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:29:53.995 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:29:53.996 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 66
+04.01.18 20:29:54.165 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:54.166 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:29:54.166","packetId":66,"userId":2}
+04.01.18 20:29:54.181 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:29:54.182 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:29:54.177","packetId":66,"userId":2}
+04.01.18 20:29:54.183 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:29:54.184 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:29:54.185 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 67
+04.01.18 20:29:54.365 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:54.369 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:29:54.369","packetId":67,"userId":2}
+04.01.18 20:29:54.397 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:29:54.398 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:29:54.385","packetId":67,"userId":2}
+04.01.18 20:29:54.400 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:29:54.401 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:29:54.401 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 68
+04.01.18 20:29:54.565 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:54.566 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:29:54.566","packetId":68,"userId":2}
+04.01.18 20:29:54.584 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:29:54.584 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:29:54.575","packetId":68,"userId":2}
+04.01.18 20:29:54.585 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:29:54.586 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:29:54.587 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 69
+04.01.18 20:29:54.765 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:54.765 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:29:54.765","packetId":69,"userId":2}
+04.01.18 20:29:54.800 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:29:54.801 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:29:54.794","packetId":69,"userId":2}
+04.01.18 20:29:54.802 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:29:54.803 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:29:54.804 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 70
+04.01.18 20:29:54.965 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:54.968 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:29:54.968","packetId":70,"userId":2}
+04.01.18 20:29:55.003 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:29:55.005 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:29:54.987","packetId":70,"userId":2}
+04.01.18 20:29:55.006 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:29:55.007 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:29:55.008 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 71
+04.01.18 20:29:55.165 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:55.168 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:29:55.168","packetId":71,"userId":2}
+04.01.18 20:29:55.192 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:29:55.193 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:29:55.182","packetId":71,"userId":2}
+04.01.18 20:29:55.194 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:29:55.195 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:29:55.195 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 72
+04.01.18 20:29:55.365 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:55.370 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:29:55.370","packetId":72,"userId":2}
+04.01.18 20:29:55.397 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:29:55.398 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:29:55.389","packetId":72,"userId":2}
+04.01.18 20:29:55.399 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:29:55.401 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:29:55.402 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 73
+04.01.18 20:29:55.565 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:55.568 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:29:55.568","packetId":73,"userId":2}
+04.01.18 20:29:55.584 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:29:55.585 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:29:55.581","packetId":73,"userId":2}
+04.01.18 20:29:55.587 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:29:55.587 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:29:55.588 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 74
+04.01.18 20:29:55.765 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:55.770 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:29:55.770","packetId":74,"userId":2}
+04.01.18 20:29:55.805 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:29:55.806 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:29:55.788","packetId":74,"userId":2}
+04.01.18 20:29:55.807 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:29:55.808 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:29:55.809 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 75
+04.01.18 20:29:55.965 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:55.966 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:29:55.966","packetId":75,"userId":2}
+04.01.18 20:29:55.982 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:29:55.983 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:29:55.977","packetId":75,"userId":2}
+04.01.18 20:29:55.984 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:29:55.985 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:29:55.985 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 76
+04.01.18 20:29:56.165 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:56.168 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:29:56.168","packetId":76,"userId":2}
+04.01.18 20:29:56.198 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:29:56.198 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:29:56.185","packetId":76,"userId":2}
+04.01.18 20:29:56.199 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:29:56.200 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:29:56.200 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 77
+04.01.18 20:29:56.365 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:56.369 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:29:56.369","packetId":77,"userId":2}
+04.01.18 20:29:56.394 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:29:56.395 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:29:56.383","packetId":77,"userId":2}
+04.01.18 20:29:56.397 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:29:56.397 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:29:56.398 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 78
+04.01.18 20:29:56.565 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:56.616 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:29:56.569","packetId":78,"userId":2}
+04.01.18 20:29:56.652 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:29:56.653 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:29:56.652","packetId":78,"userId":2}
+04.01.18 20:29:56.653 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:29:56.653 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:29:56.653 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 79
+04.01.18 20:29:56.765 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:56.767 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:29:56.767","packetId":79,"userId":2}
+04.01.18 20:29:56.769 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:29:56.769 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:29:56.769","packetId":79,"userId":2}
+04.01.18 20:29:56.769 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:29:56.770 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:29:56.770 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 80
+04.01.18 20:29:56.965 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:56.967 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:29:56.967","packetId":80,"userId":2}
+04.01.18 20:29:56.970 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:29:56.970 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:29:56.970","packetId":80,"userId":2}
+04.01.18 20:29:56.970 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:29:56.971 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:29:56.971 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 81
+04.01.18 20:29:57.165 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:57.169 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:29:57.169","packetId":81,"userId":2}
+04.01.18 20:29:57.172 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:29:57.172 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:29:57.171","packetId":81,"userId":2}
+04.01.18 20:29:57.172 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:29:57.172 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:29:57.172 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 82
+04.01.18 20:29:57.365 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:57.369 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:29:57.369","packetId":82,"userId":2}
+04.01.18 20:29:57.372 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:29:57.372 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:29:57.372","packetId":82,"userId":2}
+04.01.18 20:29:57.372 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:29:57.372 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:29:57.372 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 83
+04.01.18 20:29:57.566 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:57.566 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:29:57.566","packetId":83,"userId":2}
+04.01.18 20:29:57.571 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:29:57.653 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:29:57.569","packetId":83,"userId":2}
+04.01.18 20:29:57.662 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:29:57.663 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:29:57.664 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 84
+04.01.18 20:29:57.765 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:57.767 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:29:57.767","packetId":84,"userId":2}
+04.01.18 20:29:57.965 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:58.165 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:58.365 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:58.565 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:58.632 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:29:58.632 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:29:58.531","packetId":84,"userId":2}
+04.01.18 20:29:58.634 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:29:58.637 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:29:58.637 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 85
+04.01.18 20:29:58.765 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:58.781 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:29:58.781","packetId":85,"userId":2}
+04.01.18 20:29:58.965 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:59.165 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:59.444 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:29:59.565 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:29:59.765 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:29:59.965 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:00.161 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:30:00.163 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:29:59.548","packetId":85,"userId":2}
+04.01.18 20:30:00.164 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:30:00.165 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:00.166 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:30:00.166 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 86
+04.01.18 20:30:00.168 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:30:00.168","packetId":86,"userId":2}
+04.01.18 20:30:00.280 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:30:00.281 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:30:00.263","packetId":86,"userId":2}
+04.01.18 20:30:00.282 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:30:00.297 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:30:00.298 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 87
+04.01.18 20:30:00.301 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:30:00.301","packetId":87,"userId":2}
+04.01.18 20:30:00.365 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:30:00.565 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:30:00.765 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:00.965 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:01.165 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:01.197 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:30:01.297 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:30:00.759","packetId":87,"userId":2}
+04.01.18 20:30:01.477 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:01.566 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:01.607 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:30:01.717 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:30:01.718 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 88
+04.01.18 20:30:01.743 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:30:01.743","packetId":88,"userId":2}
+04.01.18 20:30:01.871 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:01.965 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:30:02.165 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:02.245 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:30:02.246 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:30:02.166","packetId":88,"userId":2}
+04.01.18 20:30:02.249 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:30:02.252 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:30:02.253 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 89
+04.01.18 20:30:02.367 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:02.389 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:30:02.388","packetId":89,"userId":2}
+04.01.18 20:30:02.565 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:30:02.702 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:30:02.703 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:30:02.516","packetId":89,"userId":2}
+04.01.18 20:30:02.703 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:30:02.713 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:30:02.713 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 90
+04.01.18 20:30:02.715 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:30:02.714","packetId":90,"userId":2}
+04.01.18 20:30:02.765 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:30:02.965 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:03.031 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:30:03.032 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:30:02.894","packetId":90,"userId":2}
+04.01.18 20:30:03.035 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:30:03.035 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:30:03.036 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 91
+04.01.18 20:30:03.036 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:30:03.036","packetId":91,"userId":2}
+04.01.18 20:30:03.165 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:30:03.256 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:30:03.257 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:30:03.222","packetId":91,"userId":2}
+04.01.18 20:30:03.259 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:30:03.261 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:30:03.262 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 92
+04.01.18 20:30:03.263 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:30:03.262","packetId":92,"userId":2}
+04.01.18 20:30:03.365 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:30:03.565 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:03.722 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:30:03.723 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:30:03.566","packetId":92,"userId":2}
+04.01.18 20:30:03.725 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:30:03.733 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:30:03.734 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 93
+04.01.18 20:30:03.765 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:03.767 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:30:03.767","packetId":93,"userId":2}
+04.01.18 20:30:03.965 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:30:04.046 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:30:04.047 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:30:04.022","packetId":93,"userId":2}
+04.01.18 20:30:04.048 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:30:04.048 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:30:04.049 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 94
+04.01.18 20:30:04.050 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:30:04.049","packetId":94,"userId":2}
+04.01.18 20:30:04.165 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:30:04.365 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:04.565 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:04.593 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:30:04.595 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:30:04.329","packetId":94,"userId":2}
+04.01.18 20:30:04.596 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:30:04.596 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:30:04.597 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 95
+04.01.18 20:30:04.599 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:30:04.598","packetId":95,"userId":2}
+04.01.18 20:30:04.765 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:30:04.965 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:05.165 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:05.182 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:30:05.183 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:30:05.010","packetId":95,"userId":2}
+04.01.18 20:30:05.184 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:30:05.190 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:30:05.191 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 96
+04.01.18 20:30:05.232 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:30:05.232","packetId":96,"userId":2}
+04.01.18 20:30:05.365 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:30:05.400 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:30:05.401 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:30:05.376","packetId":96,"userId":2}
+04.01.18 20:30:05.403 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:30:05.405 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:30:05.408 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 97
+04.01.18 20:30:05.431 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:30:05.430","packetId":97,"userId":2}
+04.01.18 20:30:05.565 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:30:05.765 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:05.965 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:05.992 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:30:05.998 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:30:05.868","packetId":97,"userId":2}
+04.01.18 20:30:06.005 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:30:06.007 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:30:06.007 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 98
+04.01.18 20:30:06.008 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:30:06.008","packetId":98,"userId":2}
+04.01.18 20:30:06.106 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:30:06.107 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:30:06.082","packetId":98,"userId":2}
+04.01.18 20:30:06.107 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:30:06.117 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:30:06.117 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 99
+04.01.18 20:30:06.118 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:30:06.118","packetId":99,"userId":2}
+04.01.18 20:30:06.165 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:30:06.365 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:30:06.377 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 204
+04.01.18 20:30:06.378 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:30:06.326","packetId":99,"userId":2}
+04.01.18 20:30:06.379 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:30:06.381 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:30:06.383 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 100
+04.01.18 20:30:06.383 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:30:06.383","packetId":100,"userId":2}
+04.01.18 20:30:06.565 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:30:06.619 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 205
+04.01.18 20:30:06.620 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:30:06.531","packetId":100,"userId":2}
+04.01.18 20:30:06.620 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:30:06.621 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:30:06.622 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 101
+04.01.18 20:30:06.623 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:30:06.623","packetId":101,"userId":2}
+04.01.18 20:30:06.765 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:30:06.881 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 205
+04.01.18 20:30:06.882 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:30:06.784","packetId":101,"userId":2}
+04.01.18 20:30:06.882 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:30:06.883 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:30:06.884 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 102
+04.01.18 20:30:06.886 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:30:06.886","packetId":102,"userId":2}
+04.01.18 20:30:06.965 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:30:07.165 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:07.365 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:07.405 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 205
+04.01.18 20:30:07.407 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:30:07.252","packetId":102,"userId":2}
+04.01.18 20:30:07.414 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:30:07.416 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:30:07.416 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 103
+04.01.18 20:30:07.417 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:30:07.417","packetId":103,"userId":2}
+04.01.18 20:30:07.565 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:30:07.765 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:07.812 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 205
+04.01.18 20:30:07.816 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:30:07.719","packetId":103,"userId":2}
+04.01.18 20:30:07.818 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:30:07.824 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:30:07.825 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 104
+04.01.18 20:30:07.826 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:30:07.826","packetId":104,"userId":2}
+04.01.18 20:30:07.965 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:30:08.165 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:08.173 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 205
+04.01.18 20:30:08.174 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:30:07.941","packetId":104,"userId":2}
+04.01.18 20:30:08.175 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:30:08.200 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:30:08.201 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 105
+04.01.18 20:30:08.201 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:30:08.201","packetId":105,"userId":2}
+04.01.18 20:30:08.365 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:30:08.565 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:08.765 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:08.884 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 205
+04.01.18 20:30:08.884 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:30:08.674","packetId":105,"userId":2}
+04.01.18 20:30:08.885 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:30:08.886 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:30:08.887 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 106
+04.01.18 20:30:08.914 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:30:08.912","packetId":106,"userId":2}
+04.01.18 20:30:09.068 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:09.655 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:30:09.711 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:09.721 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:09.765 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:09.965 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:10.143 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 205
+04.01.18 20:30:10.269 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:30:10.121","packetId":106,"userId":2}
+04.01.18 20:30:10.275 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:30:10.276 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:10.277 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:30:10.277 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 107
+04.01.18 20:30:10.278 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:30:10.278","packetId":107,"userId":2}
+04.01.18 20:30:10.365 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:30:10.565 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:10.765 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:10.965 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:11.165 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:11.331 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 205
+04.01.18 20:30:11.332 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:30:11.216","packetId":107,"userId":2}
+04.01.18 20:30:11.334 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:30:11.336 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:30:11.338 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 108
+04.01.18 20:30:11.359 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:30:11.359","packetId":108,"userId":2}
+04.01.18 20:30:11.365 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:30:11.565 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:11.738 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 205
+04.01.18 20:30:11.739 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:30:11.699","packetId":108,"userId":2}
+04.01.18 20:30:11.845 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:11.846 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:30:11.846 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:30:11.847 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 109
+04.01.18 20:30:11.847 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:30:11.847","packetId":109,"userId":2}
+04.01.18 20:30:11.965 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:30:12.165 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:12.365 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:12.477 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 205
+04.01.18 20:30:12.478 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:30:12.099","packetId":109,"userId":2}
+04.01.18 20:30:12.479 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:30:12.480 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:30:12.480 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 110
+04.01.18 20:30:12.481 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:30:12.480","packetId":110,"userId":2}
+04.01.18 20:30:12.565 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:30:12.765 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:12.796 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 205
+04.01.18 20:30:12.796 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:30:12.788","packetId":110,"userId":2}
+04.01.18 20:30:12.797 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:30:12.800 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:30:12.801 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 111
+04.01.18 20:30:12.802 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:30:12.801","packetId":111,"userId":2}
+04.01.18 20:30:12.965 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:30:13.165 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:13.366 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:13.461 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 205
+04.01.18 20:30:13.463 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:30:12.943","packetId":111,"userId":2}
+04.01.18 20:30:13.464 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:30:13.465 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:30:13.466 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 112
+04.01.18 20:30:13.466 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:30:13.466","packetId":112,"userId":2}
+04.01.18 20:30:13.565 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:30:13.765 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:13.901 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 205
+04.01.18 20:30:13.902 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:30:13.767","packetId":112,"userId":2}
+04.01.18 20:30:13.902 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:30:13.941 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:30:13.941 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 113
+04.01.18 20:30:13.942 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:30:13.942","packetId":113,"userId":2}
+04.01.18 20:30:13.965 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:30:14.165 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:14.197 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 205
+04.01.18 20:30:14.198 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:30:14.100","packetId":113,"userId":2}
+04.01.18 20:30:14.199 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:30:14.200 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:30:14.201 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 114
+04.01.18 20:30:14.206 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:30:14.206","packetId":114,"userId":2}
+04.01.18 20:30:14.365 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:30:14.565 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:14.700 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 205
+04.01.18 20:30:14.701 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:30:14.541","packetId":114,"userId":2}
+04.01.18 20:30:14.702 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:30:14.707 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:30:14.707 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 115
+04.01.18 20:30:14.723 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:30:14.723","packetId":115,"userId":2}
+04.01.18 20:30:14.776 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:14.965 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:30:15.165 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:15.365 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:15.446 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 205
+04.01.18 20:30:15.447 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:30:15.388","packetId":115,"userId":2}
+04.01.18 20:30:15.448 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:30:15.448 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:30:15.449 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 116
+04.01.18 20:30:15.449 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:30:15.449","packetId":116,"userId":2}
+04.01.18 20:30:15.565 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:30:15.719 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 205
+04.01.18 20:30:15.720 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:30:15.626","packetId":116,"userId":2}
+04.01.18 20:30:15.722 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:30:15.724 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:30:15.727 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 117
+04.01.18 20:30:15.734 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:30:15.734","packetId":117,"userId":2}
+04.01.18 20:30:15.765 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:15.965 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:30:16.020 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 205
+04.01.18 20:30:16.021 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:30:15.996","packetId":117,"userId":2}
+04.01.18 20:30:16.054 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:30:16.340 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:16.365 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:16.402 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:30:16.403 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 118
+04.01.18 20:30:16.403 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:30:16.403","packetId":118,"userId":2}
+04.01.18 20:30:16.565 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:30:16.609 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 205
+04.01.18 20:30:16.610 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:30:16.509","packetId":118,"userId":2}
+04.01.18 20:30:16.611 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:30:16.612 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:30:16.612 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 119
+04.01.18 20:30:16.613 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:30:16.613","packetId":119,"userId":2}
+04.01.18 20:30:16.765 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:30:16.822 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 205
+04.01.18 20:30:16.823 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:30:16.798","packetId":119,"userId":2}
+04.01.18 20:30:16.824 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:30:16.825 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:30:16.826 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 120
+04.01.18 20:30:16.827 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:30:16.827","packetId":120,"userId":2}
+04.01.18 20:30:16.965 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:30:16.966 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 205
+04.01.18 20:30:16.967 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:30:16.924","packetId":120,"userId":2}
+04.01.18 20:30:16.967 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:30:16.986 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:30:16.986 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 121
+04.01.18 20:30:16.986 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:30:16.986","packetId":121,"userId":2}
+04.01.18 20:30:17.165 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:30:17.194 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 205
+04.01.18 20:30:17.195 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:30:17.179","packetId":121,"userId":2}
+04.01.18 20:30:17.195 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:30:17.225 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:30:17.226 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 122
+04.01.18 20:30:17.227 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:30:17.226","packetId":122,"userId":2}
+04.01.18 20:30:17.365 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:30:17.412 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 205
+04.01.18 20:30:17.413 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:30:17.389","packetId":122,"userId":2}
+04.01.18 20:30:17.414 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:30:17.414 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:30:17.415 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 123
+04.01.18 20:30:17.416 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:30:17.416","packetId":123,"userId":2}
+04.01.18 20:30:17.565 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:30:17.717 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 205
+04.01.18 20:30:17.718 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:30:17.650","packetId":123,"userId":2}
+04.01.18 20:30:17.719 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:30:17.720 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:30:17.720 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 124
+04.01.18 20:30:17.721 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:30:17.721","packetId":124,"userId":2}
+04.01.18 20:30:17.765 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:30:17.965 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:18.081 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 205
+04.01.18 20:30:18.082 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:30:17.966","packetId":124,"userId":2}
+04.01.18 20:30:18.084 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:30:18.110 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:30:18.110 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 125
+04.01.18 20:30:18.110 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:30:18.110","packetId":125,"userId":2}
+04.01.18 20:30:18.165 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:30:18.365 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:18.565 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:18.702 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 205
+04.01.18 20:30:18.703 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:30:18.542","packetId":125,"userId":2}
+04.01.18 20:30:18.703 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:30:18.705 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:30:18.705 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 126
+04.01.18 20:30:18.716 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:30:18.716","packetId":126,"userId":2}
+04.01.18 20:30:18.765 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:30:18.865 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 205
+04.01.18 20:30:18.867 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:30:18.808","packetId":126,"userId":2}
+04.01.18 20:30:18.868 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:30:18.963 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:30:18.963 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 127
+04.01.18 20:30:18.965 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:18.969 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:30:18.968","packetId":127,"userId":2}
+04.01.18 20:30:19.165 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:30:19.365 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:19.565 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:19.765 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:19.965 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:20.165 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:20.365 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:20.565 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:20.765 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:20.965 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:21.165 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:21.365 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:21.565 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:21.765 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:21.965 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:22.165 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:22.365 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:22.565 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:22.765 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:22.965 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:23.165 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:23.365 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:23.565 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:23.765 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:23.965 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:24.165 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:24.365 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:24.565 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:24.765 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:24.965 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:25.165 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:25.365 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:25.565 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:25.765 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:25.965 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:26.165 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:26.348 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 205
+04.01.18 20:30:26.349 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:30:26.257","packetId":127,"userId":2}
+04.01.18 20:30:26.351 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:30:26.352 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:30:26.352 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 128
+04.01.18 20:30:26.354 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:30:26.354","packetId":128,"userId":2}
+04.01.18 20:30:26.365 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:30:26.565 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:26.623 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 205
+04.01.18 20:30:26.624 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:30:26.535","packetId":128,"userId":2}
+04.01.18 20:30:26.626 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:30:26.687 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:30:26.688 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 129
+04.01.18 20:30:26.688 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:30:26.688","packetId":129,"userId":2}
+04.01.18 20:30:26.765 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:30:26.965 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:27.005 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 205
+04.01.18 20:30:27.006 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:30:26.910","packetId":129,"userId":2}
+04.01.18 20:30:27.008 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:30:27.009 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:30:27.010 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 130
+04.01.18 20:30:27.026 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:30:27.026","packetId":130,"userId":2}
+04.01.18 20:30:27.165 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:30:27.343 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 205
+04.01.18 20:30:27.344 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:30:27.285","packetId":130,"userId":2}
+04.01.18 20:30:27.345 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:30:27.345 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:30:27.346 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 131
+04.01.18 20:30:27.358 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:30:27.358","packetId":131,"userId":2}
+04.01.18 20:30:27.365 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:27.565 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:30:27.579 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 205
+04.01.18 20:30:27.580 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:30:27.490","packetId":131,"userId":2}
+04.01.18 20:30:27.580 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:30:27.580 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:30:27.581 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 132
+04.01.18 20:30:27.581 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:30:27.581","packetId":132,"userId":2}
+04.01.18 20:30:27.765 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:30:27.847 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 205
+04.01.18 20:30:27.847 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:30:27.750","packetId":132,"userId":2}
+04.01.18 20:30:27.848 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:30:27.849 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:30:27.850 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 133
+04.01.18 20:30:27.851 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:30:27.851","packetId":133,"userId":2}
+04.01.18 20:30:27.965 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:30:28.106 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 205
+04.01.18 20:30:28.107 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:30:28.036","packetId":133,"userId":2}
+04.01.18 20:30:28.108 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:30:28.126 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:30:28.127 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 134
+04.01.18 20:30:28.127 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:30:28.127","packetId":134,"userId":2}
+04.01.18 20:30:28.165 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:28.321 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 205
+04.01.18 20:30:28.322 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:30:28.297","packetId":134,"userId":2}
+04.01.18 20:30:28.323 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:30:28.336 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:30:28.336 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 135
+04.01.18 20:30:28.337 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:30:28.337","packetId":135,"userId":2}
+04.01.18 20:30:28.365 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:30:28.566 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:30:28.642 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 205
+04.01.18 20:30:28.643 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:30:28.516","packetId":135,"userId":2}
+04.01.18 20:30:28.643 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:30:28.683 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:30:28.721 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 136
+04.01.18 20:30:28.758 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:30:28.758","packetId":136,"userId":2}
+04.01.18 20:30:28.765 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:28.965 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:30:29.087 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 205
+04.01.18 20:30:29.089 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:30:29.013","packetId":136,"userId":2}
+04.01.18 20:30:29.089 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:30:29.100 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:30:29.101 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 137
+04.01.18 20:30:29.101 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:30:29.101","packetId":137,"userId":2}
+04.01.18 20:30:29.165 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:30:29.365 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:29.565 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:29.578 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 205
+04.01.18 20:30:29.578 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:30:29.411","packetId":137,"userId":2}
+04.01.18 20:30:29.579 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:30:29.579 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:30:29.580 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 138
+04.01.18 20:30:29.581 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:30:29.581","packetId":138,"userId":2}
+04.01.18 20:30:29.765 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:30:29.965 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:29.986 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 205
+04.01.18 20:30:29.987 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:30:29.960","packetId":138,"userId":2}
+04.01.18 20:30:29.988 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:30:29.988 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:30:29.988 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 139
+04.01.18 20:30:29.988 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:30:29.988","packetId":139,"userId":2}
+04.01.18 20:30:30.165 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:30:30.229 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 205
+04.01.18 20:30:30.233 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:30:30.103","packetId":139,"userId":2}
+04.01.18 20:30:30.233 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:30:30.234 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:30:30.234 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 140
+04.01.18 20:30:30.241 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:30:30.241","packetId":140,"userId":2}
+04.01.18 20:30:30.365 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:30:30.394 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 205
+04.01.18 20:30:30.395 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:30:30.330","packetId":140,"userId":2}
+04.01.18 20:30:30.395 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:30:30.402 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:30:30.402 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 141
+04.01.18 20:30:30.403 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:30:30.402","packetId":141,"userId":2}
+04.01.18 20:30:30.565 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:30:30.765 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:30.965 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:31.165 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:31.365 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:31.565 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:31.765 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:31.965 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:32.068 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 205
+04.01.18 20:30:32.069 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:30:32.063","packetId":141,"userId":2}
+04.01.18 20:30:32.070 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:30:32.087 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:30:32.088 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 142
+04.01.18 20:30:32.089 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:30:32.089","packetId":142,"userId":2}
+04.01.18 20:30:32.165 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:30:32.365 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Queue is full.
+04.01.18 20:30:32.504 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 205
+04.01.18 20:30:32.504 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:30:32.268","packetId":142,"userId":2}
+04.01.18 20:30:32.505 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:30:32.506 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:30:32.506 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 143
+04.01.18 20:30:32.508 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:30:32.508","packetId":143,"userId":2}
+04.01.18 20:30:32.565 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:30:32.602 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 205
+04.01.18 20:30:32.602 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:30:32.600","packetId":143,"userId":2}
+04.01.18 20:30:32.603 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:30:32.603 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:30:32.604 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 144
+04.01.18 20:30:32.644 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:30:32.644","packetId":144,"userId":2}
+04.01.18 20:30:32.675 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 205
+04.01.18 20:30:32.675 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:30:32.672","packetId":144,"userId":2}
+04.01.18 20:30:32.676 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:30:32.677 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:30:32.677 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 145
+04.01.18 20:30:32.677 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:30:32.677","packetId":145,"userId":2}
+04.01.18 20:30:32.765 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:30:32.774 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 205
+04.01.18 20:30:32.775 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:30:32.768","packetId":145,"userId":2}
+04.01.18 20:30:32.775 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:30:32.776 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:30:32.776 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 146
+04.01.18 20:30:32.776 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:30:32.776","packetId":146,"userId":2}
+04.01.18 20:30:32.871 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 205
+04.01.18 20:30:32.872 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:30:32.865","packetId":146,"userId":2}
+04.01.18 20:30:32.873 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:30:32.874 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:30:32.874 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 147
+04.01.18 20:30:32.874 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:30:32.874","packetId":147,"userId":2}
+04.01.18 20:30:32.954 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 205
+04.01.18 20:30:32.955 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:30:32.947","packetId":147,"userId":2}
+04.01.18 20:30:32.956 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:30:32.957 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:30:32.957 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 148
+04.01.18 20:30:32.958 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:30:32.958","packetId":148,"userId":2}
+04.01.18 20:30:32.965 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:30:33.088 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 205
+04.01.18 20:30:33.090 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:30:33.086","packetId":148,"userId":2}
+04.01.18 20:30:33.098 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:30:33.098 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:30:33.099 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 149
+04.01.18 20:30:33.099 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:30:33.099","packetId":149,"userId":2}
+04.01.18 20:30:33.134 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 205
+04.01.18 20:30:33.134 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:30:33.127","packetId":149,"userId":2}
+04.01.18 20:30:33.136 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:30:33.136 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:30:33.136 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 150
+04.01.18 20:30:33.137 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:30:33.137","packetId":150,"userId":2}
+04.01.18 20:30:33.165 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:30:33.245 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 205
+04.01.18 20:30:33.245 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:30:33.242","packetId":150,"userId":2}
+04.01.18 20:30:33.247 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:30:33.247 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:30:33.247 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 151
+04.01.18 20:30:33.248 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:30:33.248","packetId":151,"userId":2}
+04.01.18 20:30:33.283 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 205
+04.01.18 20:30:33.283 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:30:33.276","packetId":151,"userId":2}
+04.01.18 20:30:33.284 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:30:33.285 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:30:33.285 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 152
+04.01.18 20:30:33.291 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:30:33.291","packetId":152,"userId":2}
+04.01.18 20:30:33.318 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 205
+04.01.18 20:30:33.319 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:30:33.316","packetId":152,"userId":2}
+04.01.18 20:30:33.320 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:30:33.321 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:30:33.321 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 153
+04.01.18 20:30:33.322 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:30:33.322","packetId":153,"userId":2}
+04.01.18 20:30:33.343 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 205
+04.01.18 20:30:33.344 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:30:33.342","packetId":153,"userId":2}
+04.01.18 20:30:33.345 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:30:33.346 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:30:33.346 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 154
+04.01.18 20:30:33.365 DEBUG Timer-0 - (com.apu.auctionclient.nw.PollingTask) - PollingTask Thread. Put to queue.
+04.01.18 20:30:33.368 DEBUG Thread-1 - (com.apu.auctionclient.nw.SendingTask) - send:{"queryType":"POLL","time":"2018.01.04 20:30:33.368","packetId":154,"userId":2}
+04.01.18 20:30:33.388 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - Read bytes. Amount: 205
+04.01.18 20:30:33.389 DEBUG Thread-2 - (com.apu.auctionclient.nw.ReceivingTask) - {"auctionLots":[{"lotId":1,"startPrice":10,"lotName":"Book","lastRate":4520,"lastRateUserId":1,"amountObservers":30}],"queryType":"POLL_ANSWER","time":"2018.01.04 20:30:33.387","packetId":154,"userId":2}
+04.01.18 20:30:33.390 DEBUG Thread-2 - (com.apu.auctionclient.nw.utils.Decoder) - PollAnswerQuery packet
+04.01.18 20:30:33.391 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - Poll answer query to controller
+04.01.18 20:30:33.392 DEBUG Thread-2 - (com.apu.auctionclient.nw.NetworkController) - 155
